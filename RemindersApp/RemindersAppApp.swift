@@ -6,12 +6,26 @@
 //
 
 import SwiftUI
+import UserNotifications
 
 @main
 struct RemindersAppApp: App {
+    
+    init() {
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.sound, .badge]) { granted, error in
+            if granted {
+                
+            }else {
+                
+            }
+        }
+    }
+    
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environment(\.managedObjectContext, CoreDataProvider.shared.persistentContainer.viewContext)
         }
     }
 }
