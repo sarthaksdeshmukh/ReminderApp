@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FD29B61F2E5EB18200036673 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FD29B61E2E5EB16E00036673 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		FD29B61E2E5EB16E00036673 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		FD5BBF9D2E3DA47400679C9F /* RemindersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		FD5BBF942E3DA47400679C9F = {
 			isa = PBXGroup;
 			children = (
+				FD29B61E2E5EB16E00036673 /* .gitignore */,
 				FD5BBF9F2E3DA47400679C9F /* RemindersApp */,
 				FD5BBF9E2E3DA47400679C9F /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD29B61F2E5EB18200036673 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
